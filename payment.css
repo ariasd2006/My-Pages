@@ -1,0 +1,18 @@
+img {
+	max-width: 100%;
+	max-height: 100%;
+	width: 250px;
+}
+
+#creditcard {
+	margin-top: 80px;
+	margin-left: 43px;
+	position: fixed;
+}
+.form-row {
+	 visibility: hidden;
+}
+button.submit{
+	position: absolute;
+	top: 0px;
+}
