@@ -1,0 +1,1 @@
+Just getting a grip around react and still practicing
