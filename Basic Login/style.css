@@ -1,0 +1,11 @@
+input {
+	margin: 10px 10px;
+	border: 1px solid black;
+}
+button {
+	background-color: black;
+	color: white;
+}
+h2 {
+	text-align: center;
+}

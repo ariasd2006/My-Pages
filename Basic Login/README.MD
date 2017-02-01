@@ -1,0 +1,1 @@
+Just a basic login that grabs your username and password to display them. Can be used to post to an actual form that handles data.

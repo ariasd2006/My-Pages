@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Order Your Car!</title>
+</head>
+<body>
+<div class="container">
+	<div id="header" class="navbar-header">
+		<div class="navbar-brand">Order your brand new car here</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<h3>Build Your Car</h3>
+			<div>Welcome to the build your car page. We have a host of cars listed on special below. Take a look at our options and select your special today.</div>
+			<h4>Select Your Options Below</h4>
+				<form>
+					<div class="container" id="payment-info">
+						<div class="form-group">
+							<label> Desired Car</label>
+								<div class="radio">
+									<input type="radio" id="Mustang" name="car" value="Mustang">Mustang</input>
+								</div>
+								<div class="radio">
+									<input type="radio" id="Accord" name="car" value="Accord">Accord</input>
+								</div>
+								<div class="radio">
+									<input type="radio" id="Prius" name="car" value="Prius">Prius</input>
+								</div>
+								<div id="package-selection">
+									<select id="select">
+	   									<option id="placeholder" value="selectme"></option>
+	    								<option id="premium" value="1">1</option>
+	    								<option id="enhanced" value="2">2</option>
+	    								<option id="basic" value="3">3</option>
+									</select>​
+									<label>Package</label>
+								</div>
+								<button type="submit" class="btn -btn-default" onclick=" return Customer.createOrder(car, price, engine, 2017)">Submit</button>
+								<div id="displayOrder"></div>
+					</div>
+					<button class="btn" onclick="return console.log(Customer.retrieveOrder())">Retrieve Order</button>
+
+			</form>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script type="text/javascript" src="car.js"></script>
+</body>
+</html>
